@@ -1,0 +1,46 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+}
+
+button:disabled {
+  background-color: grey;
+}
+
+body {
+  background-color: black;
+}
+
+.buttonBox {
+  width: 40px;
+  height: 40px;
+  margin: 5px;
+}
+
+#mainContent {
+  color: white;
+}
+
+.buttonWrapper {
+  display: inline;
+}
+
+.gameFlexBox {
+  width: 150px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.winningPosition {
+  background-color: aquamarine;
+}
